@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url("bookstore.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formlayout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.15);
+    max-width: 500px;
+    width: 90%;
+}
+
+h1 {
+    color: #4a2c2a;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: #8b5e3c;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #6d472d;
+}
+
+.form-container {
+    margin-top: 25px;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #8b5e3c;
+    outline: none;
+}
